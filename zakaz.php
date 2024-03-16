@@ -5,7 +5,7 @@
 <div class="content-body">
     <div class="content-block">
         <h2><i class="bi bi-funnel"></i> Фильтры</h2>
-        <div class="search-block"> 
+        <div class="search-block mt-3"> 
                     <div class="filters row">
                 
                         <div class="col-xl-3">

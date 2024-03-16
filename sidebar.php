@@ -7,13 +7,13 @@
                 <a href="/"><li><img src="/image/1.svg" alt="">Каталог</li></a>
                 <a href="/contragent"><li><img src="/image/2.svg" alt="">Контрагенты</li></a>
                 <a href="/zakaz"><li><img src="/image/3.svg" alt="">Заказы</li></a>
-                <li><img src="/image/4.svg" alt="">Пользователи</li>
+                <a href="/user"><li><img src="/image/4.svg" alt="">Пользователи</li></a>
             </ul>
         </div>
     </div>
     <div class="footer-side">
         <div class="settings-block">
-            <img src="/image/settings.png" alt="">
+            <a class="d-contents" href="/settings"><img src="/image/settings.png" alt=""></a>
             <span class="crt-lng">EN</span>
         </div>
     </div>

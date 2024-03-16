@@ -37,6 +37,18 @@
                     case '/contragent':
                         include 'contragent.php';
                         break;
+                    case '/contragent-add':
+                        include 'contragent-add.php';
+                        break;
+                    case '/user':
+                        include 'user.php';
+                        break;
+                    case '/user-add':
+                        include 'user-add.php';
+                        break;
+                    case '/settings':
+                        include 'settings.php';
+                        break;
                     default:
                         include '404.php';
                         break;

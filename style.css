@@ -25,10 +25,24 @@
     display: inline-flex;
     cursor: pointer;
 }
+
+.icon-xl{
+    height: 60px;
+    padding: 16px;
+    border-radius: 100%;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.mr20{
+    margin-right: 20px;
+}
 .d-contents {
     display: contents;
 }
-
+.icon-gray{
+    background-color: #C4C4C4;
+}
 .icon-dark-gray{
     background-color: #757575;
 
@@ -200,10 +214,14 @@
 #admin-panel .btn-lg{
     font-size: 14px;
     width: 200px!important;
+    min-width: 200px;
+    max-width: 200px;
     max-height: 50px;
 }
 #admin-panel .btn-md{
     width: 150px!important;
+    min-width: 150px;
+    max-width: 150px;
     max-height: 50px;
 }
 
@@ -226,6 +244,10 @@
     margin:0 20px 0 0
 }
 
+.search-block .filters{
+
+}
+
 .order-input{
     padding: 12px;
     border-radius: 10px;
@@ -240,23 +262,24 @@
     direction: ltr;
 }
 
-.table-place::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
-}
-
 /* bill */
 .content-block.bill{
     border-left: 1px solid #D9D9D9;
 }
 
+.table-place::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
 
 /* Стилизация полосы скролла ползунка */
 .table-place::-webkit-scrollbar-thumb {
     background:#EBEBEB; 
     border-radius: 5px;
 }
-
+.history-event::-webkit-scrollbar-thumb, .history-event::-webkit-scrollbar{
+    display: none;
+}
 
 /* fonts */
 #admin-panel  .page-title{
@@ -462,4 +485,19 @@ h3.text-detail{
     border: solid #0079bf;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
+  }
+
+  .history-event{
+    font-size: 12px;
+    overflow: overlay;
+    max-height: 320px;
+    }
+  .history-event .blue-text{
+    font-size: 16px;
+    margin: 0 10px;
+    color: #103E95;
+  }
+  .histry-block{
+    margin-top:20px;
+    line-height: 2;
   }
