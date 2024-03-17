@@ -22,8 +22,8 @@
                     <div class="row">
                         <div class="col-md-5 mt-4"><input class="order-input" type="text" placeholder="Email"></div>
                         <div class="col-md-7 mt-4">
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected="" hidden>Выбрать язык</option>
+                            <select class="custom-select" aria-label="Default select example">
+                                <option disabled="" hidden>Выбрать язык</option>
                                 <option value="1">RU</option>
                                 <option value="2">ENG</option>
                             </select>

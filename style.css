@@ -401,7 +401,9 @@ h3.text-detail{
     border-radius: 10px;
     cursor: pointer;
 }
-
+.multiselect{
+    cursor: pointer;
+}
 
  
   .selectBox {
@@ -501,3 +503,82 @@ h3.text-detail{
     margin-top:20px;
     line-height: 2;
   }
+
+
+
+
+
+
+
+
+
+
+
+  .custom-select {
+    position: relative;
+}
+
+.new-select {
+    position: relative;
+    border: 1px solid #DADADA;
+    padding: 12px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 10px;
+}
+
+.new-select__list {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    z-index: 2;
+    background: #fff;
+    user-select: none;
+}
+
+.new-select__list.on {
+    display: block;
+}
+
+.new-select__item span {
+    display: block;
+    padding: 10px 15px;
+}
+
+.new-select__item span:hover {
+    color: #103E95;
+}
+
+.new-select:after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 9px;
+    top: 18px;
+    background: url('/image/arrow-dark.svg') no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.6;
+
+    -webkit-transition: all .27s ease-in-out;
+        -o-transition: all .27s ease-in-out;
+            transition: all .27s ease-in-out;
+
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+         -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+
+.new-select.on:after {
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+         -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+}

@@ -21,9 +21,10 @@
 
                     <div class="row">
                         <div class="col-md-6 mt-4">
-                            <select class="form-select" aria-label="Default select example" >
-                                <option selected="">Физ лицо</option>
+                            <select class="custom-select" aria-label="Default select example" >
+                                <option disabled>Предпринимательство</option>
                                 <option value="1">Юр лицо</option>
+                                <option value="2">Физ лицо</option>
                             </select>
                         </div>
                     </div>
@@ -63,8 +64,8 @@
                         </div>
 
                         <div class="col-md-6 mt-4">
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected="" hidden>Язык клиента</option>
+                            <select class="custom-select" aria-label="Default select example">
+                                <option disabled="" hidden>Язык клиента</option>
                                 <option value="1">RU</option>
                                 <option value="2">ENG</option>
                             </select>
@@ -121,8 +122,8 @@
                     
                     <div class="row">
                         <div class="col-md-12 mt-4">
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected="" hidden>Выбрать клинику</option>
+                            <select class="custom-select" aria-label="Default select example">
+                                <option disabled="" hidden>Выбрать клинику</option>
                                 <option value="1">Клиника1</option>
                                 <option value="2">Клиника2</option>
                             </select>
@@ -131,8 +132,8 @@
 
                     <div class="row">
                         <div class="col-md-12 mt-4">
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected="" hidden>Выбрать менеджера</option>
+                            <select class="custom-select" aria-label="Default select example">
+                                <option disabled="" hidden>Выбрать менеджера</option>
                                 <option value="1">Менеджер1</option>
                                 <option value="2">Менеджер2</option>
                             </select>
@@ -197,3 +198,5 @@
     </div>
     <!-- void --><div class="col-md-3 mt-4 void"></div><!-- void -->
 </div>
+
+
