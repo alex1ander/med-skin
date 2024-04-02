@@ -36,31 +36,39 @@
 
                     <div class="row">
                         <div class="col-md-6 mt-4">
-                                <form>
-                                <div class="multiselect">
-                                    <div class="selectBox" onclick="showCheckboxes()">
-                                    <select class="form-select">
-                                        <option>Выбрать тип</option>
-                                    </select>
-                                    <div class="overSelect"></div>
-                                    </div>
-                                    <div id="checkboxes">
-                                   
-                                    <input class="pretty-input" type="checkbox" id="one" /> 
-                                    <label class="pretty-label" for="one">Поставщик</label>
+                                
 
-                                    <input class="pretty-input" type="checkbox" id="two" />
-                                    <label class="pretty-label" for="two">Покупатель</label>
 
-                                    <input class="pretty-input" type="checkbox" id="three" />
-                                    <label class="pretty-label" for="three">Опт</label>
 
-                                    <input class="pretty-input" type="checkbox" id="four" />
-                                    <label class="pretty-label" for="four">Поставщик кремов</label>
+                        <div class="filter w-100">
+  <div class="filter__name">
+    Выбрать тип
+  </div>
+  <div class="filter__list">
+    <ul>
+      <li class="g-cheep">
+        <input id="g-cheep-1" type="checkbox">
+        <label for="g-cheep-1">Тип1</label>
+      </li>
+      <li class="g-cheep">
+        <input id="g-cheep-2" type="checkbox">
+        <label for="g-cheep-2">Тип2</label>
+      </li>
+      <li class="g-cheep">
+        <input id="g-cheep-3" type="checkbox">
+        <label for="g-cheep-3">Тип3</label>
+      </li>
+    </ul>
+  </div>
+</div>
 
-                                    </div>
-                                </div>
-                                </form>
+
+
+
+
+
+
+
                         </div>
 
                         <div class="col-md-6 mt-4">

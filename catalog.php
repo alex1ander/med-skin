@@ -16,34 +16,19 @@
 
 
                     <ul class="level-1 folders">
-                        <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">level-1</span>
+                        <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">Номенклатура</span>
                             <ul class="level-2">
-                                <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">level-2</span>
+                                <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">Продукция</span>
                                     <ul class="level-3">
-                                        <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">3</span></li>
-                                        <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">3</span></li>
-                                        <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">3</span></li>
+                                        <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">Aprilline</span></li>
+                                        <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">DIACO BIOR</span></li>
+                                        <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">Dr. Pen USA</span></li>
                                     </ul>
                                 </li>
-                                <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">пусто2</span></li>
-                                <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">пусто2</span></li>
+                                <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">Материалы</span></li>
+                                <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">Оборудование</span></li>
                             </ul>
                         </li>
-                        <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">Пусто1</span></li>
-                        <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">level-1</span> 
-                            <ul class="level-2"> 
-                                <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">пусто2</span></li>
-                                <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">level-2</span>
-                                    <ul class="level-3">
-                                        <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">3</span></li>
-                                        <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">3</span></li>
-                                        <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">3</span></li>
-                                    </ul>
-                                </li>
-                                <li><span class="list-element"><img src="/image/folder-icon.svg" alt="">пусто2</span></li>
-                            </ul>
-                        </li>
-
                     </ul>
 
 
@@ -73,12 +58,14 @@ $(document).ready(function(){
     $('.level-1 > li').click(function(){
         // Скрываем или показываем дочерние элементы второго уровня
         $(this).children('.level-2').toggleClass('show');
+        $(this).children('.list-element').toggleClass('open');
     });
 
     // При нажатии на элемент второго уровня
     $('.level-2 > li').click(function(){
         // Скрываем или показываем дочерние элементы третьего уровня
         $(this).children('.level-3').toggleClass('show');
+        $(this).children('.list-element').toggleClass('open');
     });
 
     // Отключаем всплытие события, чтобы избежать множественного срабатывания
@@ -88,3 +75,10 @@ $(document).ready(function(){
 });
 
 </script>
+
+<style>
+    #admin-panel{
+        background-color: #EAF1F8;
+    }
+
+</style>

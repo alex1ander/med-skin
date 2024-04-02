@@ -14,6 +14,7 @@
 
 </head>
 <body id="admin-panel">
+    <h1 class="custom_error" style="display:none;">Мобильная версия в разработке</h1>
     <div class="container-fluid mx-auto mt40">
         <div class="row mx-auto justify-content-around">
 
